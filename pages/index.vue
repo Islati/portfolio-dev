@@ -3,7 +3,7 @@
     <v-col cols="1">
       <v-row no-gutters align-content="center" justify="center">
         <v-img src="avatar.webp" width="50" alt="About"></v-img>
-        <v-chip label class="mt-2"><h4 class="text-white">About</h4></v-chip>
+        <v-chip label size="small" class="mt-2"><h4 class="text-white">About</h4></v-chip>
       </v-row>
 
     </v-col>
@@ -63,6 +63,20 @@
           </ul>
         </v-col>
       </v-row>
+    </v-col>
+  </v-row>
+
+  <v-row align-content="center" justify="center" class="mt-2 mb-2">
+    <v-col cols="2">
+      <v-btn href="https://upwork.com/freelancers/islati" target="_blank" density="compact" class="bg-green-darken-1 text-white" prepend-icon="mdi-link-variant">Upwork</v-btn>
+    </v-col>
+
+    <v-col cols="2">
+      <v-btn href="https://github.com/Islati" target="_blank" density="compact" class="bg-grey-darken-4 text-white" prepend-icon="mdi-github">GitHub</v-btn>
+    </v-col>
+
+    <v-col cols="2">
+      <v-btn href="https://www.linkedin.com/in/islati-sk-2108b6224/" target="_blank" density="compact" class="bg-blue text-white" prepend-icon="mdi-linkedin">LinkedIn</v-btn>
     </v-col>
   </v-row>
 

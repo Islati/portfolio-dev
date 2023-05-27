@@ -1,14 +1,12 @@
 import vuetify from "vite-plugin-vuetify";
 
 // PWA Config
-const title = "Skreet | Dashboard";
-const shortTitle = "Manage the music.";
-const description = "Help you manage stats and find meaningful information from the bots.";
-const image = "https://vuetify3nuxt3starter.behonbaker.com/starter.png";
-const url = "https://vuetify3nuxt3starter.behonbaker.com/";
+const title = "Islati Sk | Software Engineer";
+const shortTitle = "Portfolio";
+const description = "Single Page Portfolio, designed by Islati";
+const url = "https://Islati.github.io/";
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
-// @ts-ignore
 // @ts-ignore
 export default defineNuxtConfig({
 	css: ["@/assets/main.scss"],
@@ -80,11 +78,11 @@ export default defineNuxtConfig({
 					property: "og:url",
 					content: url,
 				},
-				{
-					hid: "og:image:secure_url",
-					property: "og:image:secure_url",
-					content: image,
-				},
+				// {
+				// 	hid: "og:image:secure_url",
+				// 	property: "og:image:secure_url",
+				// 	content: image,
+				// },
 				{
 					hid: "og:title",
 					property: "og:title",
@@ -95,11 +93,11 @@ export default defineNuxtConfig({
 					property: "og:description",
 					content: description,
 				},
-				{
-					hid: "og:image",
-					property: "og:image",
-					content: image,
-				},
+				// {
+				// 	hid: "og:image",
+				// 	property: "og:image",
+				// 	content: image,
+				// },
 				//Twitter
 				{ name: "twitter:card", content: "summary_large_image" },
 				{
@@ -117,11 +115,11 @@ export default defineNuxtConfig({
 					name: "twitter:description",
 					content: description,
 				},
-				{
-					hid: "twitter:image",
-					name: "twitter:image",
-					content: image,
-				},
+				// {
+				// 	hid: "twitter:image",
+				// 	name: "twitter:image",
+				// 	content: image,
+				// },
 			],
 		},
 	},

@@ -9,7 +9,7 @@
         <v-list-item-title class="text-center">Software Engineer</v-list-item-title>
         <v-list-item-subtitle class="text-center">Islati Sk</v-list-item-subtitle>
       </v-list-item>
-      <v-divider></v-divider>
+      <v-divider class="mt-2 mb-1"></v-divider>
 
       <v-list-item prepend-icon="mdi-language-java">
         <v-list-item-title class="text-center">15 Years</v-list-item-title>
