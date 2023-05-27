@@ -1,7 +1,7 @@
-## View Here (Demo)
+## Islati's Portfolio
 
-[Online Demo](https://vuetify3nuxt3starter.behonbaker.com)
-### Run the app
+[View Online](https://islati.xyz)
+### Run the app (locally)
 
 1. Install the deps
 
@@ -21,5 +21,4 @@ npm run dev
 - Nuxt Icon
 - Sass
 - Vuetify
-- kevinmarrec/nuxt-pwa
 - Vite Plugin Vuetify
