@@ -12,9 +12,9 @@
     <v-col cols="8" class="ml-3 mt-2">
       <v-row>
         <v-col cols="12">
-          <h2 class="font-weight-light">Islati Sk | 28 Years Old</h2>
-          <p class="text-white font-weight-light mt-2">> Self-taught & passionate software engineer with a proven
-            track record of building innovative solutions.</p>
+          <h2 class="font-weight-light">Islati Sk</h2>
+          <p class="text-white font-weight-light mt-2">> Educated & passionate software engineer with a proven
+            track record.</p>
         </v-col>
         <v-col cols="4">
           <ul class="ml-5 ul-simple">
@@ -123,7 +123,7 @@
             </v-col>
           </v-row>
 
-          <v-divider class="mt-1"/>
+          <v-divider class="mt-2"/>
           <v-btn color="purple-lighten-1 mt-2" href="http://ecorrouge.com" target="_blank">
             Visit
           </v-btn>
@@ -159,12 +159,12 @@
             <v-col cols="4" class="mt-2">
               <v-chip>AWS</v-chip>
             </v-col>
-            <v-col cols="6" class="mt-2">
-              <v-chip>Ruby on Rails</v-chip>
+            <v-col cols="4" class="mt-2">
+              <v-chip>Ruby</v-chip>
             </v-col>
           </v-row>
 
-          <v-divider class="mt-1"/>
+          <v-divider class="mt-2"/>
           <v-btn color="purple-lighten-1 mt-2" href="http://clearcalcs.com" target="_blank">
             Visit
           </v-btn>
@@ -208,7 +208,7 @@
             </v-col>
           </v-row>
 
-          <v-divider class="mt-1"/>
+          <v-divider class="mt-2"/>
           <v-btn color="purple-lighten-1 mt-2" href="http://jobninja.com" target="_blank">
             Visit
           </v-btn>
@@ -245,7 +245,7 @@
             </v-col>
           </v-row>
 
-          <v-divider class="mt-1"/>
+          <v-divider class="mt-2"/>
           <v-btn color="purple-lighten-1 mt-2" href="https://www.upwork.com/freelancers/islati" target="_blank">
             Visit
           </v-btn>
@@ -257,7 +257,7 @@
         <v-img src="tehama.png" cover class="text-white"></v-img>
         <v-card-text class="text--primary text-center">
           <h4 class="font-weight-thin">Tehama</h4>
-          <p class="mb-3">Cybersecurity Platform for
+          <p class="mb-3">Cybersecurity SaaS (DaaS) Platform for
             Hybrid and Remote Work</p>
 
           <v-row no-gutters align-content="center" justify="center">
@@ -280,7 +280,7 @@
             </v-col>
           </v-row>
 
-          <v-divider class="mt-1"/>
+          <v-divider class="mt-2"/>
           <v-btn color="purple-lighten-1 mt-2" href="https://www.tehama.io" target="_blank">
             Visit
           </v-btn>
@@ -331,7 +331,7 @@
             </v-col>
           </v-row>
 
-          <v-divider class="mt-1"/>
+          <v-divider class="mt-2"/>
           <v-btn color="purple-lighten-1 mt-2" href="https://www.tehama.io" target="_blank">
             Visit
           </v-btn>
@@ -365,7 +365,7 @@
             </v-col>
           </v-row>
 
-          <v-divider class="mt-1"/>
+          <v-divider class="mt-2"/>
           <v-btn color="purple-lighten-1 mt-2" href="https://www.cubecraft.net" target="_blank">
             Visit
           </v-btn>
@@ -391,7 +391,7 @@
             </v-col>
           </v-row>
 
-          <v-divider class="mt-1"/>
+          <v-divider class="mt-2"/>
           <v-btn color="purple-lighten-1 mt-2" href="https://www.intertek.com" target="_blank">
             Visit
           </v-btn>
@@ -417,7 +417,7 @@
             </v-col>
           </v-row>
 
-          <v-divider class="mt-1"/>
+          <v-divider class="mt-2"/>
           <v-btn color="purple-lighten-1 mt-2" href="https://www.cibowares.com" target="_blank">
             Visit
           </v-btn>
@@ -443,7 +443,7 @@
             </v-col>
           </v-row>
 
-          <v-divider class="mt-1"/>
+          <v-divider class="mt-2"/>
           <v-btn color="purple-lighten-1 mt-2"
                  href="https://web.archive.org/web/20140331075054/http://www.gamelynx.net/" target="_blank">
             Visit
@@ -475,7 +475,7 @@
             </v-col>
           </v-row>
 
-          <v-divider class="mt-1"/>
+          <v-divider class="mt-2"/>
           <v-btn color="purple-lighten-1 mt-2" href="https://web.archive.org/web/20150813094500/http://saicogaming.com/"
                  target="_blank">
             Visit
@@ -513,7 +513,7 @@
             </v-col>
           </v-row>
 
-          <v-divider class="mt-1"/>
+          <v-divider class="mt-2"/>
           <v-btn color="purple-lighten-1 mt-2"
                  href="https://web.archive.org/web/20200814172454/https://www.monkeydatatech.com/" target="_blank">
             Visit
@@ -550,7 +550,7 @@
             </v-col>
           </v-row>
 
-          <v-divider class="mt-1"/>
+          <v-divider class="mt-2"/>
           <v-btn color="purple-lighten-1 mt-2"
                  href="https://web.archive.org/web/20200811191852/https://www.doverdigitaldesign.ca/" target="_blank">
             Visit
@@ -583,7 +583,7 @@
             </v-col>
           </v-row>
 
-          <v-divider class="mt-1"/>
+          <v-divider class="mt-2"/>
           <v-btn color="purple-lighten-1 mt-2"
                  href="https://web.archive.org/web/20160626121736/http://www.sayfriends.com/" target="_blank">
             Visit
@@ -613,7 +613,7 @@
             </v-col>
           </v-row>
 
-          <v-divider class="mt-1"/>
+          <v-divider class="mt-2"/>
           <v-btn color="purple-lighten-1 mt-2"
                  href="https://web.archive.org/web/20160720145628/http://artectis.com/" target="_blank">
             Visit
