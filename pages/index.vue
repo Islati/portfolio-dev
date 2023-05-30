@@ -3,6 +3,8 @@
     <v-col cols="1">
       <v-row no-gutters align-content="center" justify="center">
         <v-img src="avatar.webp" width="50" alt="About"></v-img>
+      </v-row>
+      <v-row no-gutters align-content="center" justify="center">
         <v-chip label size="small" class="mt-2"><h4 class="text-white">About</h4></v-chip>
       </v-row>
 
