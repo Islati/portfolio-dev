@@ -2,7 +2,7 @@
   <v-row no-gutters class="pb-2">
     <v-col cols="1">
       <v-row no-gutters align-content="center" justify="center">
-        <v-img src="avatar.webp" width="50" alt="Islati"></v-img>
+        <v-img src="avatar.png" width="50" alt="Islati"></v-img>
       </v-row>
       <v-row no-gutters align-content="center" justify="center">
         <v-chip label size="small" class="mt-2"><h4 class="text-white">About</h4></v-chip>
@@ -14,7 +14,7 @@
         <v-col cols="12">
           <h2 class="font-weight-light">Islati Sk</h2>
           <p class="text-white font-weight-light mt-2">> Educated & passionate software engineer with a proven
-            track record.</p>
+            track record. I started at 13 when I taught myself how to code with the dream to build.</p>
         </v-col>
         <v-col cols="4">
           <ul class="ml-5 ul-simple">
@@ -69,10 +69,6 @@
   </v-row>
 
   <v-row align-content="center" justify="center" class="mt-2 mb-2">
-    <v-col cols="2">
-      <v-btn href="https://upwork.com/freelancers/islati" target="_blank" density="compact" class="bg-green-darken-1 text-white" prepend-icon="mdi-link-variant">Upwork</v-btn>
-    </v-col>
-
     <v-col cols="2">
       <v-btn href="https://github.com/Islati" target="_blank" density="compact" class="bg-grey-darken-4 text-white" prepend-icon="mdi-github">GitHub</v-btn>
     </v-col>
