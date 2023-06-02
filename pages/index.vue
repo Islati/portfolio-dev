@@ -14,7 +14,7 @@
         <v-col cols="12">
           <h2 class="font-weight-light">Islati Sk</h2>
           <p class="text-white font-weight-light mt-2">> Educated & passionate software engineer with a proven
-            track record. I started at 13 when I taught myself how to code with the dream to build.</p>
+            track record. It started at 13 when I taught myself how to code.</p>
         </v-col>
         <v-col cols="4">
           <ul class="ml-5 ul-simple">
