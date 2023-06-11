@@ -1,3 +1,10 @@
+<script setup lang="ts">
+import {CV_DATA_ENCODED} from "~/helpers/cv";
+import VuePdfEmbed from "vue-pdf-embed";
+
+const pdfData = ref(CV_DATA_ENCODED);
+</script>
+
 <template>
   <v-row no-gutters class="pb-2">
     <v-col cols="1">
@@ -14,7 +21,26 @@
         <v-col cols="12">
           <h2 class="font-weight-light">Islati Sk</h2>
           <p class="text-white font-weight-light mt-2">> Educated & passionate software engineer with a proven
-            track record. It started at 13 when I taught myself how to code.</p>
+            track record. Check out my resume.</p>
+        </v-col>
+        <v-col cols="12">
+          <v-expansion-panels>
+            <v-expansion-panel>
+              <v-expansion-panel-title class="text-center">
+                <template v-slot:default="{expanded}">
+                  <v-col cols="12">
+                  <span>
+                  Islati Sk - Resume <p class="mt-2 text-grey font-italic">(Click to view)</p>
+                  </span>
+                  </v-col>
+
+                </template>
+              </v-expansion-panel-title>
+              <v-expansion-panel-text>
+                <vue-pdf-embed :source="pdfData"/>
+              </v-expansion-panel-text>
+            </v-expansion-panel>
+          </v-expansion-panels>
         </v-col>
         <v-col cols="4">
           <ul class="ml-5 ul-simple">
@@ -70,11 +96,15 @@
 
   <v-row align-content="center" justify="center" class="mt-2 mb-2">
     <v-col cols="2">
-      <v-btn href="https://github.com/Islati" target="_blank" density="compact" class="bg-grey-darken-4 text-white" prepend-icon="mdi-github">GitHub</v-btn>
+      <v-btn href="https://github.com/Islati" target="_blank" density="compact" class="bg-grey-darken-4 text-white"
+             prepend-icon="mdi-github">GitHub
+      </v-btn>
     </v-col>
 
     <v-col cols="2">
-      <v-btn href="https://www.linkedin.com/in/islati-sk-2108b6224/" target="_blank" density="compact" class="bg-blue text-white" prepend-icon="mdi-linkedin">LinkedIn</v-btn>
+      <v-btn href="https://www.linkedin.com/in/islati-sk-2108b6224/" target="_blank" density="compact"
+             class="bg-blue text-white" prepend-icon="mdi-linkedin">LinkedIn
+      </v-btn>
     </v-col>
   </v-row>
 
@@ -619,16 +649,8 @@
     </v-col>
 
 
-
   </v-row>
 </template>
-
-<script setup lang="ts">
-
-onMounted(() => {
-  //Perform a request for the data on mount
-});
-</script>
 
 <style scoped>
 .ul-simple {
