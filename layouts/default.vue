@@ -3,13 +3,8 @@
     <v-main>
       <v-container fluid>
         <v-row align-content="center">
-          <v-col cols="2">
-            <slot name="sidebar">
-              <sidebar-nav/>
-            </slot>
-          </v-col>
 
-          <v-col cols="10">
+          <v-col cols="12" align-self="center">
             <slot/>
           </v-col>
         </v-row>
