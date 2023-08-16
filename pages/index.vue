@@ -1,12 +1,8 @@
 <script setup lang="ts">
-import {CV_DATA_ENCODED} from "~/helpers/cv";
-import VuePdfEmbed from "vue-pdf-embed";
-
-const pdfData = ref(CV_DATA_ENCODED);
 </script>
 
 <template>
-  <v-container fluid="true">
+  <v-container fluid>
     <v-row>
       <v-col cols="12" sm="4" class="d-flex flex-column align-center">
         <v-img class="rounded-sm" max-width="150px" src="avatar.png" alt="Islati"></v-img>
@@ -15,22 +11,38 @@ const pdfData = ref(CV_DATA_ENCODED);
         <v-chip size="small" label class="ma-2 text-green-accent-1">Music Producer</v-chip>
       </v-col>
       <v-col cols="12" sm="8" class="mt-3 mt-sm-0">
-        <v-row>
-          <v-col cols="12" class="d-flex justify-center">
+        <v-row class="d-flex flex-row align-center justify-center">
+          <v-col cols="2">
             <v-chip href="https://github.com/Islati" label target="_blank" size="small"
                     class="bg-grey-darken-4 text-white ma-2">
               <v-icon class="mr-1">mdi-github</v-icon>
               <span>GitHub</span>
             </v-chip>
+          </v-col>
+          <v-col cols="2">
             <v-chip label href="https://www.linkedin.com/in/islati-sk-2108b6224/" target="_blank" size="small"
                     class="bg-blue text-white ma-2">
               <v-icon class="mr-1">mdi-linkedin</v-icon>
               <span>LinkedIn</span>
             </v-chip>
+          </v-col>
+          <v-col cols="1" class="text-center">
+            <span>♬</span>
+          </v-col>
+          <v-col cols="2">
+
             <v-chip label href="http://www.youtube.com/c/Islati" target="_blank" size="small"
                     class="bg-red text-white ma-2">
               <v-icon class="mr-1">mdi-youtube</v-icon>
               <span>YouTube</span>
+            </v-chip>
+          </v-col>
+          <v-col cols="2">
+
+            <v-chip label href="https://open.spotify.com/artist/1kxPoYW6CuTlFE3b3xwSxR" target="_blank" size="small"
+                    class="bg-green text-white ma-2">
+              <v-icon class="mr-1">mdi-spotify</v-icon>
+              <span>Spotify</span>
             </v-chip>
           </v-col>
         </v-row>
@@ -39,12 +51,14 @@ const pdfData = ref(CV_DATA_ENCODED);
         <v-row>
           <v-col cols="12" class="text-center">
             <p class="about-text">
-              Passion is my drive, with accomplishment the motive. I've been building software since 2008- Went to college in 2012 while freelancing to support myself.
+              Passion is my drive, with accomplishment the motive. I've been building software since 2008- Went to
+              college in 2012 while freelancing to support myself.
             </p>
           </v-col>
           <v-col cols="12" class="text-center">
             <p class="about-text">
-              In my free time I'm heavily focused on creating music with my family. We love the community, and have been blessed to have quite a few opportunities in performing with many more on the horizons.
+              In my free time I'm heavily focused on creating music with my family. We love the community, and have been
+              blessed to have quite a few opportunities in performing with many more on the horizons.
             </p>
           </v-col>
 
@@ -55,15 +69,59 @@ const pdfData = ref(CV_DATA_ENCODED);
       </v-col>
     </v-row>
 
-    <v-row align-content="center" justify="center" class="mb-2 mt-5" no-gutters>
-      <v-col cols="4" align-self="center" class="text-center">
+    <v-row align-content="center" justify="center" class="mb-2 mt-5">
+      <v-col cols="12" sm="12" md="4" align-self="center" class="text-center">
         <h4>Projects</h4>
       </v-col>
     </v-row>
 
     <!--  Projects History -->
     <v-row align-content="center" justify="center">
-      <v-col md="3" xs="12">
+      <v-col cols="12" md="4">
+        <v-card>
+
+          <v-img src="glacier.png" cover class="text-white"></v-img>
+          <v-card-text class="text--primary text-center">
+            <h4 class="font-weight-thin">Glacier Digital</h4>
+            <p class="mb-3">Coorporate development firm focused on AODA Compliance and Accessibility</p>
+
+            <v-row no-gutters align-content="center" justify="center">
+              <v-chip class="w-auto overflow-visible ma-2">
+                <v-icon class="mr-1">mdi-language-csharp</v-icon>
+                <span class="overflow-visible w-auto">
+                  C#
+                </span>
+              </v-chip>
+
+              <v-chip class="w-auto overflow-visible ma-2">
+                <v-icon class="mr-1">mdi-language-html5</v-icon>
+                <span class="overflow-visible w-auto">
+                  HTML5
+                </span>
+              </v-chip>
+              <v-chip class="w-auto overflow-visible ma-2">
+                <v-icon class="mr-1">mdi-bootstrap</v-icon>
+                <span class="overflow-visible w-auto">
+                  Bootstrap
+                </span>
+              </v-chip>
+              <v-chip class="w-auto overflow-visible ma-2">
+                <v-icon class="mr-1">mdi-sass</v-icon>
+                <span class="overflow-visible w-auto">
+                  SCSS
+                </span>
+              </v-chip>
+            </v-row>
+
+            <v-divider class="mt-2"/>
+            <v-btn color="purple-lighten-1 mt-2" href="https://www.glacierdigital.com/" target="_blank">
+              Visit
+            </v-btn>
+          </v-card-text>
+        </v-card>
+      </v-col>
+
+      <v-col cols="12" md="4">
         <v-card>
 
           <v-img src="ecor-rouge.png" cover class="text-white"></v-img>
@@ -119,7 +177,7 @@ const pdfData = ref(CV_DATA_ENCODED);
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col md="3" offset-md="1" xs="12">
+      <v-col cols="12" md="4">
         <v-card>
           <v-img src="clear-calcs.png" cover class="text-white"></v-img>
           <v-card-text class="text--primary text-center">
@@ -172,7 +230,7 @@ const pdfData = ref(CV_DATA_ENCODED);
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col md="3" xs="12" offset-md="1">
+      <v-col cols="12" md="4">
         <v-card>
           <v-img src="jobninja.png" cover class="text-white"></v-img>
           <v-card-text class="text--primary text-center">
@@ -219,10 +277,7 @@ const pdfData = ref(CV_DATA_ENCODED);
           </v-card-text>
         </v-card>
       </v-col>
-    </v-row>
-
-    <v-row class="mt-2" justify="center">
-      <v-col md="3" xs="12">
+      <v-col cols="12" md="4">
         <v-card>
           <v-img src="dreammine.png" cover class="text-white"></v-img>
           <v-card-text class="text--primary text-center">
@@ -256,7 +311,7 @@ const pdfData = ref(CV_DATA_ENCODED);
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col md="3" xs="12" offset-md="1" class="mt-3">
+      <v-col cols="12" md="4">
         <v-card>
           <v-img src="tehama.png" cover class="text-white"></v-img>
           <v-card-text class="text--primary text-center">
@@ -294,7 +349,7 @@ const pdfData = ref(CV_DATA_ENCODED);
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col md="3" offset-md="1" xs="12" class="mt-3">
+      <v-col cols="12" md="4">
         <v-card>
           <v-img src="simptek.png" cover class="text-white"></v-img>
           <v-card-text class="text--primary text-center">
@@ -302,7 +357,7 @@ const pdfData = ref(CV_DATA_ENCODED);
             <p class="mb-3">Powering the
               Grid Edge Economy</p>
 
-            <v-row no-gutters align-content="center" justify="center">
+            <v-row class="d-flex align-center justify-center">
               <v-chip class="w-auto overflow-visible ma-2">
                 <v-icon class="mr-1">mdi-language-python</v-icon>
                 <span>Python</span>
@@ -340,9 +395,7 @@ const pdfData = ref(CV_DATA_ENCODED);
           </v-card-text>
         </v-card>
       </v-col>
-    </v-row>
-    <v-row class="mt-2" justify="center">
-      <v-col md="3" xs="12" class="mt-3">
+      <v-col cols="12" md="4">
         <v-card>
           <v-img src="cubecraft.png" cover class="text-white"></v-img>
           <v-card-text class="text--primary text-center">
@@ -375,14 +428,14 @@ const pdfData = ref(CV_DATA_ENCODED);
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col md="3" offset-md="1" xs="12" class="mt-3">
+      <v-col cols="12" md="4">
         <v-card>
           <v-img src="intertek.png" cover class="text-white"></v-img>
           <v-card-text class="text--primary text-center">
             <h4 class="font-weight-thin">Ingrid - Intertek</h4>
             <p class="mb-3">Worlds largest wind turbine database.</p>
 
-            <v-row no-gutters align-content="center" justify="center">
+            <v-row align-content="center" justify="center">
               <v-chip class="w-auto overflow-visible ma-2">
                 <v-icon class="mr-1">mdi-language-python</v-icon>
                 <span>Flask</span>
@@ -402,7 +455,7 @@ const pdfData = ref(CV_DATA_ENCODED);
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col md="3" offset-md="1" xs="12" class="mt-3">
+      <v-col cols="12" md="4">
         <v-card>
           <v-img src="cibowares.png" cover class="text-white"></v-img>
           <v-card-text class="text--primary text-center">
@@ -435,9 +488,7 @@ const pdfData = ref(CV_DATA_ENCODED);
           </v-card-text>
         </v-card>
       </v-col>
-    </v-row>
-    <v-row no-gutters class="mt-2" justify="center">
-      <v-col md="3" xs="12" class="mt-3">
+      <v-col cols="12" md="4">
         <v-card>
           <v-img src="gamelynx.png" cover class="text-white"></v-img>
           <v-card-text class="text--primary text-center">
@@ -467,7 +518,7 @@ const pdfData = ref(CV_DATA_ENCODED);
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col md="3" offset-md="1" xs="12" class="mt-3">
+      <v-col cols="12" md="4">
         <v-card>
           <v-img src="saico.png" cover class="text-white"></v-img>
           <v-card-text class="text--primary text-center">
@@ -504,8 +555,7 @@ const pdfData = ref(CV_DATA_ENCODED);
           </v-card-text>
         </v-card>
       </v-col>
-
-      <v-col md="3" xs="12" offset-md="1" class="mt-3">
+      <v-col cols="12" md="4">
         <v-card>
           <v-img src="mdt.png" cover class="text-white"></v-img>
           <v-card-text class="text--primary text-center">
@@ -553,10 +603,8 @@ const pdfData = ref(CV_DATA_ENCODED);
           </v-card-text>
         </v-card>
       </v-col>
-    </v-row>
-    <v-row no-gutters class="mt-2" justify="center">
 
-      <v-col md="3" xs="12" class="mt-3">
+      <v-col cols="12" md="4">
         <v-card>
           <v-img src="dover.png" cover class="text-white"></v-img>
           <v-card-text class="text--primary text-center">
@@ -605,7 +653,7 @@ const pdfData = ref(CV_DATA_ENCODED);
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col md="3" xs="12" offset-md="1" class="mt-3">
+      <v-col cols="12" md="4">
         <v-card>
           <v-img src="sayfriends.png" cover class="text-white"></v-img>
           <v-card-text class="text--primary text-center">
@@ -647,7 +695,7 @@ const pdfData = ref(CV_DATA_ENCODED);
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col md="3" xs="12" offset-md="1" class="mt-3">
+      <v-col cols="12" md="4">
         <v-card>
           <v-img src="artectis.png" cover class="text-white"></v-img>
           <v-card-text class="text--primary text-center">
@@ -686,9 +734,6 @@ const pdfData = ref(CV_DATA_ENCODED);
 </template>
 
 <style scoped>
-.ul-simple {
-  list-style-type: none;
-}
 
 hr {
   border: none;
@@ -696,16 +741,6 @@ hr {
   /* Set the hr color */
   color: #333; /* old IE */
   background-color: #333; /* Modern Browsers */
-}
-.avatar-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-}
-
-.name-column {
-  padding: 20px;
 }
 
 @media (min-width: 600px) {
