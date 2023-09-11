@@ -171,7 +171,7 @@
             </v-row>
 
             <v-divider class="mt-2"/>
-            <v-btn color="purple-lighten-1 mt-2" href="http://ecorrouge.com" target="_blank">
+            <v-btn color="purple-lighten-1 mt-2" href="https://ecorrouge.com" target="_blank">
               Visit
             </v-btn>
           </v-card-text>
